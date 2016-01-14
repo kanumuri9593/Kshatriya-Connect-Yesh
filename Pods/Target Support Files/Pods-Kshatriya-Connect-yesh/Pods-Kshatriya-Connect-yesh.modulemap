@@ -1,0 +1,6 @@
+framework module Pods_Kshatriya_Connect_yesh {
+  umbrella header "Pods-Kshatriya-Connect-yesh-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1250B1661C45655E00D56067 /* dataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1250B1651C45655E00D56067 /* dataService.swift */; };
+		1250B1681C45B18A00D56067 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1250B1671C45B18A00D56067 /* FeedVC.swift */; };
+		1250B16A1C45B38B00D56067 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1250B1691C45B38B00D56067 /* PostCell.swift */; };
+		1250B16C1C4815D600D56067 /* post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1250B16B1C4815D600D56067 /* post.swift */; };
+		12B523471C441C6B005C9D10 /* materialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B523461C441C6B005C9D10 /* materialButton.swift */; };
+		12B523491C442083005C9D10 /* materialTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B523481C442083005C9D10 /* materialTextfield.swift */; };
+		12B5234E1C443021005C9D10 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B5234B1C443021005C9D10 /* Bolts.framework */; };
+		12B5234F1C443021005C9D10 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B5234C1C443021005C9D10 /* FBSDKCoreKit.framework */; };
+		12B523501C443021005C9D10 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B5234D1C443021005C9D10 /* FBSDKLoginKit.framework */; };
 		12E2AD5F1C4403EC00D0B695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2AD5E1C4403EC00D0B695 /* AppDelegate.swift */; };
 		12E2AD611C4403EC00D0B695 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2AD601C4403EC00D0B695 /* ViewController.swift */; };
 		12E2AD641C4403EC00D0B695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E2AD621C4403EC00D0B695 /* Main.storyboard */; };
 		12E2AD671C4403EC00D0B695 /* Kshatriya_Connect_yesh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12E2AD651C4403EC00D0B695 /* Kshatriya_Connect_yesh.xcdatamodeld */; };
 		12E2AD691C4403EC00D0B695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E2AD681C4403EC00D0B695 /* Assets.xcassets */; };
 		12E2AD6C1C4403EC00D0B695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E2AD6A1C4403EC00D0B695 /* LaunchScreen.storyboard */; };
+		12E2AD7B1C44046000D0B695 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12E2AD771C44046000D0B695 /* NotoSans-Bold.ttf */; };
+		12E2AD7C1C44046000D0B695 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12E2AD781C44046000D0B695 /* NotoSans-BoldItalic.ttf */; };
+		12E2AD7D1C44046000D0B695 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12E2AD791C44046000D0B695 /* NotoSans-Italic.ttf */; };
+		12E2AD7E1C44046000D0B695 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12E2AD7A1C44046000D0B695 /* NotoSans-Regular.ttf */; };
+		12E2AD801C44162B00D0B695 /* materialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2AD7F1C44162B00D0B695 /* materialView.swift */; };
+		12E2AD831C44168300D0B695 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2AD821C44168300D0B695 /* constants.swift */; };
+		45EF0E4ED6E7B87B894E9064 /* Pods_Kshatriya_Connect_yesh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B23EDD87F2F805457F6EF6 /* Pods_Kshatriya_Connect_yesh.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10BF19D98A1AB7BB0E31E49B /* Pods-Kshatriya-Connect-yesh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kshatriya-Connect-yesh.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kshatriya-Connect-yesh/Pods-Kshatriya-Connect-yesh.release.xcconfig"; sourceTree = "<group>"; };
+		1250B1651C45655E00D56067 /* dataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataService.swift; sourceTree = "<group>"; };
+		1250B1671C45B18A00D56067 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		1250B1691C45B38B00D56067 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		1250B16B1C4815D600D56067 /* post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = post.swift; sourceTree = "<group>"; };
+		12B523461C441C6B005C9D10 /* materialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = materialButton.swift; sourceTree = "<group>"; };
+		12B523481C442083005C9D10 /* materialTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = materialTextfield.swift; sourceTree = "<group>"; };
+		12B5234B1C443021005C9D10 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		12B5234C1C443021005C9D10 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		12B5234D1C443021005C9D10 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		12E2AD5B1C4403EC00D0B695 /* Kshatriya-Connect-yesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kshatriya-Connect-yesh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E2AD5E1C4403EC00D0B695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12E2AD601C4403EC00D0B695 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +50,14 @@
 		12E2AD681C4403EC00D0B695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12E2AD6B1C4403EC00D0B695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12E2AD6D1C4403EC00D0B695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E2AD771C44046000D0B695 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		12E2AD781C44046000D0B695 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		12E2AD791C44046000D0B695 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		12E2AD7A1C44046000D0B695 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		12E2AD7F1C44162B00D0B695 /* materialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = materialView.swift; sourceTree = "<group>"; };
+		12E2AD821C44168300D0B695 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		8F14DAE42506B53BACEACB77 /* Pods-Kshatriya-Connect-yesh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kshatriya-Connect-yesh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kshatriya-Connect-yesh/Pods-Kshatriya-Connect-yesh.debug.xcconfig"; sourceTree = "<group>"; };
+		E0B23EDD87F2F805457F6EF6 /* Pods_Kshatriya_Connect_yesh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kshatriya_Connect_yesh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B5234E1C443021005C9D10 /* Bolts.framework in Frameworks */,
+				12B5234F1C443021005C9D10 /* FBSDKCoreKit.framework in Frameworks */,
+				12B523501C443021005C9D10 /* FBSDKLoginKit.framework in Frameworks */,
+				45EF0E4ED6E7B87B894E9064 /* Pods_Kshatriya_Connect_yesh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1250B1641C45653400D56067 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				1250B1651C45655E00D56067 /* dataService.swift */,
+			);
+			name = services;
+			sourceTree = "<group>";
+		};
+		12B5234A1C442FF4005C9D10 /* frameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				12B5234B1C443021005C9D10 /* Bolts.framework */,
+				12B5234C1C443021005C9D10 /* FBSDKCoreKit.framework */,
+				12B5234D1C443021005C9D10 /* FBSDKLoginKit.framework */,
+			);
+			name = frameWorks;
+			sourceTree = "<group>";
+		};
 		12E2AD521C4403EC00D0B695 = {
 			isa = PBXGroup;
 			children = (
 				12E2AD5D1C4403EC00D0B695 /* Kshatriya-Connect-yesh */,
 				12E2AD5C1C4403EC00D0B695 /* Products */,
+				3D3D93E42E3BE9F9D50A2B7A /* Pods */,
+				FA032984F22AE3E4C354CC31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +114,14 @@
 		12E2AD5D1C4403EC00D0B695 /* Kshatriya-Connect-yesh */ = {
 			isa = PBXGroup;
 			children = (
+				1250B1641C45653400D56067 /* services */,
+				12B5234A1C442FF4005C9D10 /* frameWorks */,
+				12E2AD811C44166D00D0B695 /* util */,
+				12E2AD761C44041600D0B695 /* resources */,
+				12E2AD751C44040E00D0B695 /* model */,
+				12E2AD741C44040400D0B695 /* view */,
+				12E2AD731C4403F700D0B695 /* controller */,
 				12E2AD5E1C4403EC00D0B695 /* AppDelegate.swift */,
-				12E2AD601C4403EC00D0B695 /* ViewController.swift */,
 				12E2AD621C4403EC00D0B695 /* Main.storyboard */,
 				12E2AD681C4403EC00D0B695 /* Assets.xcassets */,
 				12E2AD6A1C4403EC00D0B695 /* LaunchScreen.storyboard */,
@@ -67,6 +131,70 @@
 			path = "Kshatriya-Connect-yesh";
 			sourceTree = "<group>";
 		};
+		12E2AD731C4403F700D0B695 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				12E2AD601C4403EC00D0B695 /* ViewController.swift */,
+				1250B1671C45B18A00D56067 /* FeedVC.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		12E2AD741C44040400D0B695 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				12E2AD7F1C44162B00D0B695 /* materialView.swift */,
+				12B523461C441C6B005C9D10 /* materialButton.swift */,
+				12B523481C442083005C9D10 /* materialTextfield.swift */,
+				1250B1691C45B38B00D56067 /* PostCell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		12E2AD751C44040E00D0B695 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1250B16B1C4815D600D56067 /* post.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		12E2AD761C44041600D0B695 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				12E2AD771C44046000D0B695 /* NotoSans-Bold.ttf */,
+				12E2AD781C44046000D0B695 /* NotoSans-BoldItalic.ttf */,
+				12E2AD791C44046000D0B695 /* NotoSans-Italic.ttf */,
+				12E2AD7A1C44046000D0B695 /* NotoSans-Regular.ttf */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		12E2AD811C44166D00D0B695 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				12E2AD821C44168300D0B695 /* constants.swift */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		3D3D93E42E3BE9F9D50A2B7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F14DAE42506B53BACEACB77 /* Pods-Kshatriya-Connect-yesh.debug.xcconfig */,
+				10BF19D98A1AB7BB0E31E49B /* Pods-Kshatriya-Connect-yesh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA032984F22AE3E4C354CC31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0B23EDD87F2F805457F6EF6 /* Pods_Kshatriya_Connect_yesh.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12E2AD701C4403EC00D0B695 /* Build configuration list for PBXNativeTarget "Kshatriya-Connect-yesh" */;
 			buildPhases = (
+				D9ABEB4AC9F5222FDBA5C5B3 /* Check Pods Manifest.lock */,
 				12E2AD571C4403EC00D0B695 /* Sources */,
 				12E2AD581C4403EC00D0B695 /* Frameworks */,
 				12E2AD591C4403EC00D0B695 /* Resources */,
+				6ABC27A6FCD68F2958B2C620 /* Embed Pods Frameworks */,
+				C9E1604A391592A1C1DBB7FF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,22 +256,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E2AD7B1C44046000D0B695 /* NotoSans-Bold.ttf in Resources */,
 				12E2AD6C1C4403EC00D0B695 /* LaunchScreen.storyboard in Resources */,
+				12E2AD7C1C44046000D0B695 /* NotoSans-BoldItalic.ttf in Resources */,
+				12E2AD7D1C44046000D0B695 /* NotoSans-Italic.ttf in Resources */,
 				12E2AD691C4403EC00D0B695 /* Assets.xcassets in Resources */,
 				12E2AD641C4403EC00D0B695 /* Main.storyboard in Resources */,
+				12E2AD7E1C44046000D0B695 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6ABC27A6FCD68F2958B2C620 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kshatriya-Connect-yesh/Pods-Kshatriya-Connect-yesh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9E1604A391592A1C1DBB7FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kshatriya-Connect-yesh/Pods-Kshatriya-Connect-yesh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9ABEB4AC9F5222FDBA5C5B3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12E2AD571C4403EC00D0B695 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1250B16C1C4815D600D56067 /* post.swift in Sources */,
+				1250B1681C45B18A00D56067 /* FeedVC.swift in Sources */,
+				12B523491C442083005C9D10 /* materialTextfield.swift in Sources */,
 				12E2AD611C4403EC00D0B695 /* ViewController.swift in Sources */,
 				12E2AD671C4403EC00D0B695 /* Kshatriya_Connect_yesh.xcdatamodeld in Sources */,
+				12B523471C441C6B005C9D10 /* materialButton.swift in Sources */,
 				12E2AD5F1C4403EC00D0B695 /* AppDelegate.swift in Sources */,
+				12E2AD831C44168300D0B695 /* constants.swift in Sources */,
+				12E2AD801C44162B00D0B695 /* materialView.swift in Sources */,
+				1250B1661C45655E00D56067 /* dataService.swift in Sources */,
+				1250B16A1C45B38B00D56067 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +442,13 @@
 		};
 		12E2AD711C4403EC00D0B695 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F14DAE42506B53BACEACB77 /* Pods-Kshatriya-Connect-yesh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Kshatriya-Connect-yesh",
+				);
 				INFOPLIST_FILE = "Kshatriya-Connect-yesh/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yeswanthvarma.Kshatriya-Connect-yesh";
@@ -262,8 +458,13 @@
 		};
 		12E2AD721C4403EC00D0B695 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10BF19D98A1AB7BB0E31E49B /* Pods-Kshatriya-Connect-yesh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Kshatriya-Connect-yesh",
+				);
 				INFOPLIST_FILE = "Kshatriya-Connect-yesh/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yeswanthvarma.Kshatriya-Connect-yesh";
@@ -290,6 +491,7 @@
 				12E2AD721C4403EC00D0B695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
