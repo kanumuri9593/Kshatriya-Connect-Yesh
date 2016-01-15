@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Firebase
 
 
 class Post {
@@ -16,8 +17,13 @@ class Post {
     private var _likes : Int!
     private var _username :String!
     private var _postKey :String!
+    private var _postRef :Firebase!
     
+    var postKey : String {
     
+    return _postKey
+    
+    }
     
     var psotDescription :String {
     
@@ -72,9 +78,23 @@ class Post {
         
         }
     
+        self._postRef = DataService.ds.REF_POSTS.childByAppendingPath(self._postKey)
     
     }
     
+    func adjustLikes(addLike :Bool) {
     
+        if addLike {
+        
+        _likes = _likes + 1
+        
+        } else {
+        
+            _likes = _likes - 1
+        
+        }
+    
+     _postRef.childByAppendingPath("likes").setValue(_likes)
+    }
 
 }

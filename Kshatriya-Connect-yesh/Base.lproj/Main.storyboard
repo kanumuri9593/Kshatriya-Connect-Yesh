@@ -153,7 +153,7 @@
                                             <action selector="logInButnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NhD-LJ-YAn"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Adress" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="emS-AC-c1C" customClass="materialTextfield" customModule="Kshatriya_Connect_yesh" customModuleProvider="target">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="User name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="emS-AC-c1C" customClass="materialTextfield" customModule="Kshatriya_Connect_yesh" customModuleProvider="target">
                                         <rect key="frame" x="8" y="52" width="544" height="35"/>
                                         <animations/>
                                         <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
@@ -410,6 +410,7 @@
                                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="descriptionText" destination="BUf-La-3cQ" id="CuZ-el-6Q9"/>
+                                            <outlet property="likeImage" destination="lze-JX-7Hh" id="Sfy-KO-oVz"/>
                                             <outlet property="likesLbl" destination="tGM-Vh-h3n" id="chG-Ml-aHh"/>
                                             <outlet property="profileImg" destination="buk-CJ-SIm" id="h2U-VK-IjG"/>
                                             <outlet property="showcaseImg" destination="aUo-az-yRE" id="zZ0-8q-R7V"/>
